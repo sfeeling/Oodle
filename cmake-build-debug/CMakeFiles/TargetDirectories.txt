@@ -1,0 +1,3 @@
+/home/sfeeling/CLionProjects/Oodle/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/sfeeling/CLionProjects/Oodle/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/sfeeling/CLionProjects/Oodle/cmake-build-debug/CMakeFiles/Oodle.dir

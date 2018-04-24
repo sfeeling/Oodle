@@ -1,0 +1,1 @@
+/usr/bin/clang++  -g   CMakeFiles/Oodle.dir/src/Main.cpp.o CMakeFiles/Oodle.dir/src/FileInfo.cpp.o CMakeFiles/Oodle.dir/src/DirInfo.cpp.o CMakeFiles/Oodle.dir/src/Pickler.cpp.o CMakeFiles/Oodle.dir/src/PicklerMode.cpp.o CMakeFiles/Oodle.dir/src/SortStrategy.cpp.o  -o Oodle 

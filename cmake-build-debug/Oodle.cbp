@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Oodle"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="clang"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/sfeeling/CLionProjects/Oodle/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/sfeeling/CLionProjects/Oodle/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/sfeeling/CLionProjects/Oodle/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/sfeeling/CLionProjects/Oodle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/sfeeling/CLionProjects/Oodle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/sfeeling/CLionProjects/Oodle/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/sfeeling/CLionProjects/Oodle/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/sfeeling/CLionProjects/Oodle/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/sfeeling/CLionProjects/Oodle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/sfeeling/CLionProjects/Oodle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/sfeeling/CLionProjects/Oodle/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/sfeeling/CLionProjects/Oodle/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/sfeeling/CLionProjects/Oodle/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/sfeeling/CLionProjects/Oodle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/sfeeling/CLionProjects/Oodle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Oodle">
+				<Option output="/home/sfeeling/CLionProjects/Oodle/cmake-build-debug/Oodle" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sfeeling/CLionProjects/Oodle/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/7.2.0/../../../../include/c++/7.2.0"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/7.2.0/../../../../include/x86_64-linux-gnu/c++/7.2.0"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/7.2.0/../../../../include/c++/7.2.0/backward"/>
+					<Add directory="/usr/include/clang/6.0.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/llvm-6.0/lib/clang/6.0.1/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/sfeeling/CLionProjects/Oodle/cmake-build-debug/Makefile&quot;  VERBOSE=1 Oodle"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/sfeeling/CLionProjects/Oodle/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/sfeeling/CLionProjects/Oodle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/sfeeling/CLionProjects/Oodle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Oodle/fast">
+				<Option output="/home/sfeeling/CLionProjects/Oodle/cmake-build-debug/Oodle" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sfeeling/CLionProjects/Oodle/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/7.2.0/../../../../include/c++/7.2.0"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/7.2.0/../../../../include/x86_64-linux-gnu/c++/7.2.0"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/7.2.0/../../../../include/c++/7.2.0/backward"/>
+					<Add directory="/usr/include/clang/6.0.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/llvm-6.0/lib/clang/6.0.1/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/sfeeling/CLionProjects/Oodle/cmake-build-debug/Makefile&quot;  VERBOSE=1 Oodle/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/sfeeling/CLionProjects/Oodle/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/sfeeling/CLionProjects/Oodle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/sfeeling/CLionProjects/Oodle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/sfeeling/CLionProjects/Oodle/src/DirInfo.cpp">
+			<Option target="Oodle"/>
+		</Unit>
+		<Unit filename="/home/sfeeling/CLionProjects/Oodle/src/DirInfo.h">
+			<Option target="Oodle"/>
+		</Unit>
+		<Unit filename="/home/sfeeling/CLionProjects/Oodle/src/FileInfo.cpp">
+			<Option target="Oodle"/>
+		</Unit>
+		<Unit filename="/home/sfeeling/CLionProjects/Oodle/src/FileInfo.h">
+			<Option target="Oodle"/>
+		</Unit>
+		<Unit filename="/home/sfeeling/CLionProjects/Oodle/src/Main.cpp">
+			<Option target="Oodle"/>
+		</Unit>
+		<Unit filename="/home/sfeeling/CLionProjects/Oodle/src/Pickler.cpp">
+			<Option target="Oodle"/>
+		</Unit>
+		<Unit filename="/home/sfeeling/CLionProjects/Oodle/src/Pickler.h">
+			<Option target="Oodle"/>
+		</Unit>
+		<Unit filename="/home/sfeeling/CLionProjects/Oodle/src/PicklerMode.cpp">
+			<Option target="Oodle"/>
+		</Unit>
+		<Unit filename="/home/sfeeling/CLionProjects/Oodle/src/PicklerMode.h">
+			<Option target="Oodle"/>
+		</Unit>
+		<Unit filename="/home/sfeeling/CLionProjects/Oodle/src/SortStrategy.cpp">
+			<Option target="Oodle"/>
+		</Unit>
+		<Unit filename="/home/sfeeling/CLionProjects/Oodle/src/SortStrategy.h">
+			<Option target="Oodle"/>
+		</Unit>
+		<Unit filename="/home/sfeeling/CLionProjects/Oodle/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
