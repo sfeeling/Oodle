@@ -25,6 +25,8 @@ CMakeFiles/Oodle.dir/src/PicklerMode.cpp.o: ../src/Pickler.h
 CMakeFiles/Oodle.dir/src/PicklerMode.cpp.o: ../src/PicklerMode.cpp
 CMakeFiles/Oodle.dir/src/PicklerMode.cpp.o: ../src/PicklerMode.h
 
+CMakeFiles/Oodle.dir/src/SortStrategy.cpp.o: ../src/DirInfo.h
+CMakeFiles/Oodle.dir/src/SortStrategy.cpp.o: ../src/FileInfo.h
 CMakeFiles/Oodle.dir/src/SortStrategy.cpp.o: ../src/SortStrategy.cpp
 CMakeFiles/Oodle.dir/src/SortStrategy.cpp.o: ../src/SortStrategy.h
 

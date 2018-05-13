@@ -1,7 +1,10 @@
 #include <unistd.h>
+#include <cstring>
 
 #include <iostream>
 #include <string>
+#include <memory>
+#include <unordered_map>
 
 #include "FileInfo.h"
 #include "DirInfo.h"
@@ -13,36 +16,63 @@ using namespace std;
 
 int main(int argc, char *argv[])
 {
-    char *path = nullptr;
-    path = getcwd(nullptr, 0);  // 获取当前路径
-    cout << "当前路径：" << endl << path << endl;       // 输出当前路径
-    free(path);  // getcwd是c函数，使用alloc，用delete path无法正确回收内存
+    char *cpath = nullptr;
+    cpath = getcwd(nullptr, 0);  // 获取当前路径
 
-    cout << "目录中的文件：" << endl;
-    system("ls");  // 先用shell命令临时完成最基本的显示目录的功能
-    cout << endl;
+    // 初始化自定义的目录类
+    //DirInfo *dir_info = new DirInfo(cpath);
 
-    DirInfo *dir_info = new DirInfo();
-    // 测试排序算法，具体取决于输入的参数
-    SortStrategy *sort_strategy = new AlphaSort();
-    dir_info->Sort(sort_strategy);
-    // delete sort_strategy;
-    // sort_strategy = new SizeSort();
-    // dir_info->Sort(sort_strategy);
+    unique_ptr<DirInfo> dir_info(new DirInfo(cpath));
+    SortStrategy *sort_strategy = nullptr;
+
 
     // 测试模式
-    PicklerMode *mode = new LogMode();
-    Pickler *pickler = new Pickler(mode);
-    pickler->Traversal();
+    PicklerMode *mode = nullptr;
+    Pickler *pickler = new Pickler(cpath);
 
-    // delete mode;
-    // mode = new DiffMode();
-    // pickler->SetMode(mode);
-    // pickler->Traversal();
 
+
+    for (int i = 1; i < argc; i++)
+    {
+        string str_arg(argv[i]);
+        if (str_arg == "log")
+        {
+            mode = new LogMode();
+        }
+        else if (str_arg == "diff")
+        {
+            mode = new DiffMode();
+        }
+        else
+        {
+            if (str_arg == "-alpha")
+                sort_strategy = new AlphaSort();
+            if (str_arg == "-size")
+                sort_strategy = new SizeSort();
+            if (str_arg == "-time")
+                sort_strategy = new LastModifiedSort();
+            dir_info->SetFilter(str_arg);
+        }
+    }
+
+    if (mode)
+    {
+        pickler->SetMode(mode);
+        pickler->Traversal();
+        pickler->Log();
+        pickler->Compare();
+        pickler->Diff();
+    }
+    else
+    {
+        if (sort_strategy)
+            dir_info->Sort(sort_strategy);
+        dir_info->ShowContents();
+    }
+
+    free(cpath);  // getcwd是c函数，使用alloc，用delete path无法正确回收内存
     delete mode;
     delete pickler;
-    delete dir_info;
     delete sort_strategy;
     return 0;
 }

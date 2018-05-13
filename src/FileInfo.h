@@ -12,12 +12,19 @@ class FileInfo
 {
 public:
     FileInfo();
+    FileInfo(const std::string &, const int &, const time_t &, const bool &);
     ~FileInfo();
 
-    std::string Name();
-    int Size();
-    int LastModified();
+    const std::string &Name() const;
+    const int &Size() const;
+    const time_t &LastModified() const;
     bool IsDirectory();
+
+private:
+    std::string name_;
+    int size_;
+    time_t modified_time_;
+    bool is_dir_;
 };
 
 

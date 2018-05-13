@@ -28,28 +28,28 @@ The CXX compiler identification is Clang, found in "/home/sfeeling/CLionProjects
 Determining if the C compiler works passed with the following output:
 Change Dir: /home/sfeeling/CLionProjects/Oodle/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_d20db/fast"
-/usr/bin/make -f CMakeFiles/cmTC_d20db.dir/build.make CMakeFiles/cmTC_d20db.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_04591/fast"
+/usr/bin/make -f CMakeFiles/cmTC_04591.dir/build.make CMakeFiles/cmTC_04591.dir/build
 make[1]: Entering directory '/home/sfeeling/CLionProjects/Oodle/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_d20db.dir/testCCompiler.c.o
-/usr/bin/clang    -o CMakeFiles/cmTC_d20db.dir/testCCompiler.c.o   -c /home/sfeeling/CLionProjects/Oodle/cmake-build-debug/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_d20db
-/opt/clion-2018.1.1/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d20db.dir/link.txt --verbose=1
-/usr/bin/clang      CMakeFiles/cmTC_d20db.dir/testCCompiler.c.o  -o cmTC_d20db 
+Building C object CMakeFiles/cmTC_04591.dir/testCCompiler.c.o
+/usr/bin/clang    -o CMakeFiles/cmTC_04591.dir/testCCompiler.c.o   -c /home/sfeeling/CLionProjects/Oodle/cmake-build-debug/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_04591
+/opt/clion-2018.1.1/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_04591.dir/link.txt --verbose=1
+/usr/bin/clang      CMakeFiles/cmTC_04591.dir/testCCompiler.c.o  -o cmTC_04591 
 make[1]: Leaving directory '/home/sfeeling/CLionProjects/Oodle/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: /home/sfeeling/CLionProjects/Oodle/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_0da25/fast"
-/usr/bin/make -f CMakeFiles/cmTC_0da25.dir/build.make CMakeFiles/cmTC_0da25.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_9162f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9162f.dir/build.make CMakeFiles/cmTC_9162f.dir/build
 make[1]: Entering directory '/home/sfeeling/CLionProjects/Oodle/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_0da25.dir/CMakeCCompilerABI.c.o
-/usr/bin/clang    -o CMakeFiles/cmTC_0da25.dir/CMakeCCompilerABI.c.o   -c /opt/clion-2018.1.1/bin/cmake/share/cmake-3.10/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_0da25
-/opt/clion-2018.1.1/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0da25.dir/link.txt --verbose=1
-/usr/bin/clang     -v CMakeFiles/cmTC_0da25.dir/CMakeCCompilerABI.c.o  -o cmTC_0da25 
+Building C object CMakeFiles/cmTC_9162f.dir/CMakeCCompilerABI.c.o
+/usr/bin/clang    -o CMakeFiles/cmTC_9162f.dir/CMakeCCompilerABI.c.o   -c /opt/clion-2018.1.1/bin/cmake/share/cmake-3.10/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_9162f
+/opt/clion-2018.1.1/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9162f.dir/link.txt --verbose=1
+/usr/bin/clang     -v CMakeFiles/cmTC_9162f.dir/CMakeCCompilerABI.c.o  -o cmTC_9162f 
 clang version 6.0.1-svn329487-1~exp1~20180408093033.68 (branches/release_60)
 Target: x86_64-pc-linux-gnu
 Thread model: posix
@@ -69,7 +69,7 @@ Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/7.2.0
 Selected GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/7.2.0
 Candidate multilib: .;@m64
 Selected multilib: .;@m64
- "/usr/bin/ld" -z relro --hash-style=gnu --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_0da25 /usr/bin/../lib/gcc/x86_64-linux-gnu/7.2.0/../../../x86_64-linux-gnu/crt1.o /usr/bin/../lib/gcc/x86_64-linux-gnu/7.2.0/../../../x86_64-linux-gnu/crti.o /usr/bin/../lib/gcc/x86_64-linux-gnu/7.2.0/crtbegin.o -L/usr/bin/../lib/gcc/x86_64-linux-gnu/7.2.0 -L/usr/bin/../lib/gcc/x86_64-linux-gnu/7.2.0/../../../x86_64-linux-gnu -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/bin/../lib/gcc/x86_64-linux-gnu/7.2.0/../../.. -L/usr/lib/llvm-6.0/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_0da25.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/bin/../lib/gcc/x86_64-linux-gnu/7.2.0/crtend.o /usr/bin/../lib/gcc/x86_64-linux-gnu/7.2.0/../../../x86_64-linux-gnu/crtn.o
+ "/usr/bin/ld" -z relro --hash-style=gnu --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_9162f /usr/bin/../lib/gcc/x86_64-linux-gnu/7.2.0/../../../x86_64-linux-gnu/crt1.o /usr/bin/../lib/gcc/x86_64-linux-gnu/7.2.0/../../../x86_64-linux-gnu/crti.o /usr/bin/../lib/gcc/x86_64-linux-gnu/7.2.0/crtbegin.o -L/usr/bin/../lib/gcc/x86_64-linux-gnu/7.2.0 -L/usr/bin/../lib/gcc/x86_64-linux-gnu/7.2.0/../../../x86_64-linux-gnu -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/bin/../lib/gcc/x86_64-linux-gnu/7.2.0/../../.. -L/usr/lib/llvm-6.0/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_9162f.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/bin/../lib/gcc/x86_64-linux-gnu/7.2.0/crtend.o /usr/bin/../lib/gcc/x86_64-linux-gnu/7.2.0/../../../x86_64-linux-gnu/crtn.o
 make[1]: Leaving directory '/home/sfeeling/CLionProjects/Oodle/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
@@ -77,14 +77,14 @@ Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/sfeeling/CLionProjects/Oodle/cmake-build-debug/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_0da25/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_0da25.dir/build.make CMakeFiles/cmTC_0da25.dir/build]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_9162f/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_9162f.dir/build.make CMakeFiles/cmTC_9162f.dir/build]
   ignore line: [make[1]: Entering directory '/home/sfeeling/CLionProjects/Oodle/cmake-build-debug/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_0da25.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/clang    -o CMakeFiles/cmTC_0da25.dir/CMakeCCompilerABI.c.o   -c /opt/clion-2018.1.1/bin/cmake/share/cmake-3.10/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_0da25]
-  ignore line: [/opt/clion-2018.1.1/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0da25.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/clang     -v CMakeFiles/cmTC_0da25.dir/CMakeCCompilerABI.c.o  -o cmTC_0da25 ]
+  ignore line: [Building C object CMakeFiles/cmTC_9162f.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/clang    -o CMakeFiles/cmTC_9162f.dir/CMakeCCompilerABI.c.o   -c /opt/clion-2018.1.1/bin/cmake/share/cmake-3.10/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_9162f]
+  ignore line: [/opt/clion-2018.1.1/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9162f.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/clang     -v CMakeFiles/cmTC_9162f.dir/CMakeCCompilerABI.c.o  -o cmTC_9162f ]
   ignore line: [clang version 6.0.1-svn329487-1~exp1~20180408093033.68 (branches/release_60)]
   ignore line: [Target: x86_64-pc-linux-gnu]
   ignore line: [Thread model: posix]
@@ -106,7 +106,7 @@ Parsed C implicit link information from above output:
   ignore line: [@m64]
   ignore line: [Selected multilib: .]
   ignore line: [@m64]
-  link line: [ "/usr/bin/ld" -z relro --hash-style=gnu --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_0da25 /usr/bin/../lib/gcc/x86_64-linux-gnu/7.2.0/../../../x86_64-linux-gnu/crt1.o /usr/bin/../lib/gcc/x86_64-linux-gnu/7.2.0/../../../x86_64-linux-gnu/crti.o /usr/bin/../lib/gcc/x86_64-linux-gnu/7.2.0/crtbegin.o -L/usr/bin/../lib/gcc/x86_64-linux-gnu/7.2.0 -L/usr/bin/../lib/gcc/x86_64-linux-gnu/7.2.0/../../../x86_64-linux-gnu -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/bin/../lib/gcc/x86_64-linux-gnu/7.2.0/../../.. -L/usr/lib/llvm-6.0/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_0da25.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/bin/../lib/gcc/x86_64-linux-gnu/7.2.0/crtend.o /usr/bin/../lib/gcc/x86_64-linux-gnu/7.2.0/../../../x86_64-linux-gnu/crtn.o]
+  link line: [ "/usr/bin/ld" -z relro --hash-style=gnu --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_9162f /usr/bin/../lib/gcc/x86_64-linux-gnu/7.2.0/../../../x86_64-linux-gnu/crt1.o /usr/bin/../lib/gcc/x86_64-linux-gnu/7.2.0/../../../x86_64-linux-gnu/crti.o /usr/bin/../lib/gcc/x86_64-linux-gnu/7.2.0/crtbegin.o -L/usr/bin/../lib/gcc/x86_64-linux-gnu/7.2.0 -L/usr/bin/../lib/gcc/x86_64-linux-gnu/7.2.0/../../../x86_64-linux-gnu -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/bin/../lib/gcc/x86_64-linux-gnu/7.2.0/../../.. -L/usr/lib/llvm-6.0/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_9162f.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/bin/../lib/gcc/x86_64-linux-gnu/7.2.0/crtend.o /usr/bin/../lib/gcc/x86_64-linux-gnu/7.2.0/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/bin/ld] ==> ignore
     arg [-zrelro] ==> ignore
     arg [--hash-style=gnu] ==> ignore
@@ -116,7 +116,7 @@ Parsed C implicit link information from above output:
     arg [-dynamic-linker] ==> ignore
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_0da25] ==> ignore
+    arg [cmTC_9162f] ==> ignore
     arg [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.2.0/../../../x86_64-linux-gnu/crt1.o] ==> ignore
     arg [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.2.0/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.2.0/crtbegin.o] ==> ignore
@@ -129,7 +129,7 @@ Parsed C implicit link information from above output:
     arg [-L/usr/lib/llvm-6.0/bin/../lib] ==> dir [/usr/lib/llvm-6.0/bin/../lib]
     arg [-L/lib] ==> dir [/lib]
     arg [-L/usr/lib] ==> dir [/usr/lib]
-    arg [CMakeFiles/cmTC_0da25.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_9162f.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--as-needed] ==> ignore
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -160,14 +160,14 @@ Parsed C implicit link information from above output:
 Detecting C [-std=c11] compiler features compiled with the following output:
 Change Dir: /home/sfeeling/CLionProjects/Oodle/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_c582f/fast"
-/usr/bin/make -f CMakeFiles/cmTC_c582f.dir/build.make CMakeFiles/cmTC_c582f.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_134b5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_134b5.dir/build.make CMakeFiles/cmTC_134b5.dir/build
 make[1]: Entering directory '/home/sfeeling/CLionProjects/Oodle/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_c582f.dir/feature_tests.c.o
-/usr/bin/clang   -std=c11 -o CMakeFiles/cmTC_c582f.dir/feature_tests.c.o   -c /home/sfeeling/CLionProjects/Oodle/cmake-build-debug/CMakeFiles/feature_tests.c
-Linking C executable cmTC_c582f
-/opt/clion-2018.1.1/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c582f.dir/link.txt --verbose=1
-/usr/bin/clang      CMakeFiles/cmTC_c582f.dir/feature_tests.c.o  -o cmTC_c582f 
+Building C object CMakeFiles/cmTC_134b5.dir/feature_tests.c.o
+/usr/bin/clang   -std=c11 -o CMakeFiles/cmTC_134b5.dir/feature_tests.c.o   -c /home/sfeeling/CLionProjects/Oodle/cmake-build-debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_134b5
+/opt/clion-2018.1.1/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_134b5.dir/link.txt --verbose=1
+/usr/bin/clang      CMakeFiles/cmTC_134b5.dir/feature_tests.c.o  -o cmTC_134b5 
 make[1]: Leaving directory '/home/sfeeling/CLionProjects/Oodle/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
@@ -180,14 +180,14 @@ make[1]: Leaving directory '/home/sfeeling/CLionProjects/Oodle/cmake-build-debug
 Detecting C [-std=c99] compiler features compiled with the following output:
 Change Dir: /home/sfeeling/CLionProjects/Oodle/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_f8ce0/fast"
-/usr/bin/make -f CMakeFiles/cmTC_f8ce0.dir/build.make CMakeFiles/cmTC_f8ce0.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_8ee76/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8ee76.dir/build.make CMakeFiles/cmTC_8ee76.dir/build
 make[1]: Entering directory '/home/sfeeling/CLionProjects/Oodle/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_f8ce0.dir/feature_tests.c.o
-/usr/bin/clang   -std=c99 -o CMakeFiles/cmTC_f8ce0.dir/feature_tests.c.o   -c /home/sfeeling/CLionProjects/Oodle/cmake-build-debug/CMakeFiles/feature_tests.c
-Linking C executable cmTC_f8ce0
-/opt/clion-2018.1.1/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f8ce0.dir/link.txt --verbose=1
-/usr/bin/clang      CMakeFiles/cmTC_f8ce0.dir/feature_tests.c.o  -o cmTC_f8ce0 
+Building C object CMakeFiles/cmTC_8ee76.dir/feature_tests.c.o
+/usr/bin/clang   -std=c99 -o CMakeFiles/cmTC_8ee76.dir/feature_tests.c.o   -c /home/sfeeling/CLionProjects/Oodle/cmake-build-debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_8ee76
+/opt/clion-2018.1.1/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8ee76.dir/link.txt --verbose=1
+/usr/bin/clang      CMakeFiles/cmTC_8ee76.dir/feature_tests.c.o  -o cmTC_8ee76 
 make[1]: Leaving directory '/home/sfeeling/CLionProjects/Oodle/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
@@ -200,14 +200,14 @@ make[1]: Leaving directory '/home/sfeeling/CLionProjects/Oodle/cmake-build-debug
 Detecting C [-std=c90] compiler features compiled with the following output:
 Change Dir: /home/sfeeling/CLionProjects/Oodle/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_2812b/fast"
-/usr/bin/make -f CMakeFiles/cmTC_2812b.dir/build.make CMakeFiles/cmTC_2812b.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_56270/fast"
+/usr/bin/make -f CMakeFiles/cmTC_56270.dir/build.make CMakeFiles/cmTC_56270.dir/build
 make[1]: Entering directory '/home/sfeeling/CLionProjects/Oodle/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_2812b.dir/feature_tests.c.o
-/usr/bin/clang   -std=c90 -o CMakeFiles/cmTC_2812b.dir/feature_tests.c.o   -c /home/sfeeling/CLionProjects/Oodle/cmake-build-debug/CMakeFiles/feature_tests.c
-Linking C executable cmTC_2812b
-/opt/clion-2018.1.1/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2812b.dir/link.txt --verbose=1
-/usr/bin/clang      CMakeFiles/cmTC_2812b.dir/feature_tests.c.o  -o cmTC_2812b 
+Building C object CMakeFiles/cmTC_56270.dir/feature_tests.c.o
+/usr/bin/clang   -std=c90 -o CMakeFiles/cmTC_56270.dir/feature_tests.c.o   -c /home/sfeeling/CLionProjects/Oodle/cmake-build-debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_56270
+/opt/clion-2018.1.1/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_56270.dir/link.txt --verbose=1
+/usr/bin/clang      CMakeFiles/cmTC_56270.dir/feature_tests.c.o  -o cmTC_56270 
 make[1]: Leaving directory '/home/sfeeling/CLionProjects/Oodle/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
@@ -218,28 +218,28 @@ make[1]: Leaving directory '/home/sfeeling/CLionProjects/Oodle/cmake-build-debug
 Determining if the CXX compiler works passed with the following output:
 Change Dir: /home/sfeeling/CLionProjects/Oodle/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_4fe8f/fast"
-/usr/bin/make -f CMakeFiles/cmTC_4fe8f.dir/build.make CMakeFiles/cmTC_4fe8f.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_7fdee/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7fdee.dir/build.make CMakeFiles/cmTC_7fdee.dir/build
 make[1]: Entering directory '/home/sfeeling/CLionProjects/Oodle/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_4fe8f.dir/testCXXCompiler.cxx.o
-/usr/bin/clang++     -o CMakeFiles/cmTC_4fe8f.dir/testCXXCompiler.cxx.o -c /home/sfeeling/CLionProjects/Oodle/cmake-build-debug/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_4fe8f
-/opt/clion-2018.1.1/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4fe8f.dir/link.txt --verbose=1
-/usr/bin/clang++       CMakeFiles/cmTC_4fe8f.dir/testCXXCompiler.cxx.o  -o cmTC_4fe8f 
+Building CXX object CMakeFiles/cmTC_7fdee.dir/testCXXCompiler.cxx.o
+/usr/bin/clang++     -o CMakeFiles/cmTC_7fdee.dir/testCXXCompiler.cxx.o -c /home/sfeeling/CLionProjects/Oodle/cmake-build-debug/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_7fdee
+/opt/clion-2018.1.1/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7fdee.dir/link.txt --verbose=1
+/usr/bin/clang++       CMakeFiles/cmTC_7fdee.dir/testCXXCompiler.cxx.o  -o cmTC_7fdee 
 make[1]: Leaving directory '/home/sfeeling/CLionProjects/Oodle/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: /home/sfeeling/CLionProjects/Oodle/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_a9833/fast"
-/usr/bin/make -f CMakeFiles/cmTC_a9833.dir/build.make CMakeFiles/cmTC_a9833.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_23e0e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_23e0e.dir/build.make CMakeFiles/cmTC_23e0e.dir/build
 make[1]: Entering directory '/home/sfeeling/CLionProjects/Oodle/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_a9833.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/clang++     -o CMakeFiles/cmTC_a9833.dir/CMakeCXXCompilerABI.cpp.o -c /opt/clion-2018.1.1/bin/cmake/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_a9833
-/opt/clion-2018.1.1/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a9833.dir/link.txt --verbose=1
-/usr/bin/clang++      -v CMakeFiles/cmTC_a9833.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_a9833 
+Building CXX object CMakeFiles/cmTC_23e0e.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/clang++     -o CMakeFiles/cmTC_23e0e.dir/CMakeCXXCompilerABI.cpp.o -c /opt/clion-2018.1.1/bin/cmake/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_23e0e
+/opt/clion-2018.1.1/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_23e0e.dir/link.txt --verbose=1
+/usr/bin/clang++      -v CMakeFiles/cmTC_23e0e.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_23e0e 
 clang version 6.0.1-svn329487-1~exp1~20180408093033.68 (branches/release_60)
 Target: x86_64-pc-linux-gnu
 Thread model: posix
@@ -259,7 +259,7 @@ Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/7.2.0
 Selected GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/7.2.0
 Candidate multilib: .;@m64
 Selected multilib: .;@m64
- "/usr/bin/ld" -z relro --hash-style=gnu --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_a9833 /usr/bin/../lib/gcc/x86_64-linux-gnu/7.2.0/../../../x86_64-linux-gnu/crt1.o /usr/bin/../lib/gcc/x86_64-linux-gnu/7.2.0/../../../x86_64-linux-gnu/crti.o /usr/bin/../lib/gcc/x86_64-linux-gnu/7.2.0/crtbegin.o -L/usr/bin/../lib/gcc/x86_64-linux-gnu/7.2.0 -L/usr/bin/../lib/gcc/x86_64-linux-gnu/7.2.0/../../../x86_64-linux-gnu -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/bin/../lib/gcc/x86_64-linux-gnu/7.2.0/../../.. -L/usr/lib/llvm-6.0/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_a9833.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/bin/../lib/gcc/x86_64-linux-gnu/7.2.0/crtend.o /usr/bin/../lib/gcc/x86_64-linux-gnu/7.2.0/../../../x86_64-linux-gnu/crtn.o
+ "/usr/bin/ld" -z relro --hash-style=gnu --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_23e0e /usr/bin/../lib/gcc/x86_64-linux-gnu/7.2.0/../../../x86_64-linux-gnu/crt1.o /usr/bin/../lib/gcc/x86_64-linux-gnu/7.2.0/../../../x86_64-linux-gnu/crti.o /usr/bin/../lib/gcc/x86_64-linux-gnu/7.2.0/crtbegin.o -L/usr/bin/../lib/gcc/x86_64-linux-gnu/7.2.0 -L/usr/bin/../lib/gcc/x86_64-linux-gnu/7.2.0/../../../x86_64-linux-gnu -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/bin/../lib/gcc/x86_64-linux-gnu/7.2.0/../../.. -L/usr/lib/llvm-6.0/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_23e0e.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/bin/../lib/gcc/x86_64-linux-gnu/7.2.0/crtend.o /usr/bin/../lib/gcc/x86_64-linux-gnu/7.2.0/../../../x86_64-linux-gnu/crtn.o
 make[1]: Leaving directory '/home/sfeeling/CLionProjects/Oodle/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
@@ -267,14 +267,14 @@ Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/sfeeling/CLionProjects/Oodle/cmake-build-debug/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_a9833/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_a9833.dir/build.make CMakeFiles/cmTC_a9833.dir/build]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_23e0e/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_23e0e.dir/build.make CMakeFiles/cmTC_23e0e.dir/build]
   ignore line: [make[1]: Entering directory '/home/sfeeling/CLionProjects/Oodle/cmake-build-debug/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_a9833.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/clang++     -o CMakeFiles/cmTC_a9833.dir/CMakeCXXCompilerABI.cpp.o -c /opt/clion-2018.1.1/bin/cmake/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_a9833]
-  ignore line: [/opt/clion-2018.1.1/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a9833.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/clang++      -v CMakeFiles/cmTC_a9833.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_a9833 ]
+  ignore line: [Building CXX object CMakeFiles/cmTC_23e0e.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/clang++     -o CMakeFiles/cmTC_23e0e.dir/CMakeCXXCompilerABI.cpp.o -c /opt/clion-2018.1.1/bin/cmake/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_23e0e]
+  ignore line: [/opt/clion-2018.1.1/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_23e0e.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/clang++      -v CMakeFiles/cmTC_23e0e.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_23e0e ]
   ignore line: [clang version 6.0.1-svn329487-1~exp1~20180408093033.68 (branches/release_60)]
   ignore line: [Target: x86_64-pc-linux-gnu]
   ignore line: [Thread model: posix]
@@ -296,7 +296,7 @@ Parsed CXX implicit link information from above output:
   ignore line: [@m64]
   ignore line: [Selected multilib: .]
   ignore line: [@m64]
-  link line: [ "/usr/bin/ld" -z relro --hash-style=gnu --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_a9833 /usr/bin/../lib/gcc/x86_64-linux-gnu/7.2.0/../../../x86_64-linux-gnu/crt1.o /usr/bin/../lib/gcc/x86_64-linux-gnu/7.2.0/../../../x86_64-linux-gnu/crti.o /usr/bin/../lib/gcc/x86_64-linux-gnu/7.2.0/crtbegin.o -L/usr/bin/../lib/gcc/x86_64-linux-gnu/7.2.0 -L/usr/bin/../lib/gcc/x86_64-linux-gnu/7.2.0/../../../x86_64-linux-gnu -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/bin/../lib/gcc/x86_64-linux-gnu/7.2.0/../../.. -L/usr/lib/llvm-6.0/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_a9833.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/bin/../lib/gcc/x86_64-linux-gnu/7.2.0/crtend.o /usr/bin/../lib/gcc/x86_64-linux-gnu/7.2.0/../../../x86_64-linux-gnu/crtn.o]
+  link line: [ "/usr/bin/ld" -z relro --hash-style=gnu --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_23e0e /usr/bin/../lib/gcc/x86_64-linux-gnu/7.2.0/../../../x86_64-linux-gnu/crt1.o /usr/bin/../lib/gcc/x86_64-linux-gnu/7.2.0/../../../x86_64-linux-gnu/crti.o /usr/bin/../lib/gcc/x86_64-linux-gnu/7.2.0/crtbegin.o -L/usr/bin/../lib/gcc/x86_64-linux-gnu/7.2.0 -L/usr/bin/../lib/gcc/x86_64-linux-gnu/7.2.0/../../../x86_64-linux-gnu -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/bin/../lib/gcc/x86_64-linux-gnu/7.2.0/../../.. -L/usr/lib/llvm-6.0/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_23e0e.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/bin/../lib/gcc/x86_64-linux-gnu/7.2.0/crtend.o /usr/bin/../lib/gcc/x86_64-linux-gnu/7.2.0/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/bin/ld] ==> ignore
     arg [-zrelro] ==> ignore
     arg [--hash-style=gnu] ==> ignore
@@ -306,7 +306,7 @@ Parsed CXX implicit link information from above output:
     arg [-dynamic-linker] ==> ignore
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_a9833] ==> ignore
+    arg [cmTC_23e0e] ==> ignore
     arg [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.2.0/../../../x86_64-linux-gnu/crt1.o] ==> ignore
     arg [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.2.0/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.2.0/crtbegin.o] ==> ignore
@@ -319,7 +319,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/usr/lib/llvm-6.0/bin/../lib] ==> dir [/usr/lib/llvm-6.0/bin/../lib]
     arg [-L/lib] ==> dir [/lib]
     arg [-L/usr/lib] ==> dir [/usr/lib]
-    arg [CMakeFiles/cmTC_a9833.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_23e0e.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -348,14 +348,14 @@ Parsed CXX implicit link information from above output:
 Detecting CXX [-std=c++1z] compiler features compiled with the following output:
 Change Dir: /home/sfeeling/CLionProjects/Oodle/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_be579/fast"
-/usr/bin/make -f CMakeFiles/cmTC_be579.dir/build.make CMakeFiles/cmTC_be579.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_3c155/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3c155.dir/build.make CMakeFiles/cmTC_3c155.dir/build
 make[1]: Entering directory '/home/sfeeling/CLionProjects/Oodle/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_be579.dir/feature_tests.cxx.o
-/usr/bin/clang++    -std=c++1z -o CMakeFiles/cmTC_be579.dir/feature_tests.cxx.o -c /home/sfeeling/CLionProjects/Oodle/cmake-build-debug/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_be579
-/opt/clion-2018.1.1/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_be579.dir/link.txt --verbose=1
-/usr/bin/clang++       CMakeFiles/cmTC_be579.dir/feature_tests.cxx.o  -o cmTC_be579 
+Building CXX object CMakeFiles/cmTC_3c155.dir/feature_tests.cxx.o
+/usr/bin/clang++    -std=c++1z -o CMakeFiles/cmTC_3c155.dir/feature_tests.cxx.o -c /home/sfeeling/CLionProjects/Oodle/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_3c155
+/opt/clion-2018.1.1/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3c155.dir/link.txt --verbose=1
+/usr/bin/clang++       CMakeFiles/cmTC_3c155.dir/feature_tests.cxx.o  -o cmTC_3c155 
 make[1]: Leaving directory '/home/sfeeling/CLionProjects/Oodle/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
@@ -421,14 +421,14 @@ make[1]: Leaving directory '/home/sfeeling/CLionProjects/Oodle/cmake-build-debug
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
 Change Dir: /home/sfeeling/CLionProjects/Oodle/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_7d7d1/fast"
-/usr/bin/make -f CMakeFiles/cmTC_7d7d1.dir/build.make CMakeFiles/cmTC_7d7d1.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_09132/fast"
+/usr/bin/make -f CMakeFiles/cmTC_09132.dir/build.make CMakeFiles/cmTC_09132.dir/build
 make[1]: Entering directory '/home/sfeeling/CLionProjects/Oodle/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_7d7d1.dir/feature_tests.cxx.o
-/usr/bin/clang++    -std=c++14 -o CMakeFiles/cmTC_7d7d1.dir/feature_tests.cxx.o -c /home/sfeeling/CLionProjects/Oodle/cmake-build-debug/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_7d7d1
-/opt/clion-2018.1.1/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7d7d1.dir/link.txt --verbose=1
-/usr/bin/clang++       CMakeFiles/cmTC_7d7d1.dir/feature_tests.cxx.o  -o cmTC_7d7d1 
+Building CXX object CMakeFiles/cmTC_09132.dir/feature_tests.cxx.o
+/usr/bin/clang++    -std=c++14 -o CMakeFiles/cmTC_09132.dir/feature_tests.cxx.o -c /home/sfeeling/CLionProjects/Oodle/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_09132
+/opt/clion-2018.1.1/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_09132.dir/link.txt --verbose=1
+/usr/bin/clang++       CMakeFiles/cmTC_09132.dir/feature_tests.cxx.o  -o cmTC_09132 
 make[1]: Leaving directory '/home/sfeeling/CLionProjects/Oodle/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
@@ -494,14 +494,14 @@ make[1]: Leaving directory '/home/sfeeling/CLionProjects/Oodle/cmake-build-debug
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
 Change Dir: /home/sfeeling/CLionProjects/Oodle/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_b39e2/fast"
-/usr/bin/make -f CMakeFiles/cmTC_b39e2.dir/build.make CMakeFiles/cmTC_b39e2.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_25f2e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_25f2e.dir/build.make CMakeFiles/cmTC_25f2e.dir/build
 make[1]: Entering directory '/home/sfeeling/CLionProjects/Oodle/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_b39e2.dir/feature_tests.cxx.o
-/usr/bin/clang++    -std=c++11 -o CMakeFiles/cmTC_b39e2.dir/feature_tests.cxx.o -c /home/sfeeling/CLionProjects/Oodle/cmake-build-debug/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_b39e2
-/opt/clion-2018.1.1/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b39e2.dir/link.txt --verbose=1
-/usr/bin/clang++       CMakeFiles/cmTC_b39e2.dir/feature_tests.cxx.o  -o cmTC_b39e2 
+Building CXX object CMakeFiles/cmTC_25f2e.dir/feature_tests.cxx.o
+/usr/bin/clang++    -std=c++11 -o CMakeFiles/cmTC_25f2e.dir/feature_tests.cxx.o -c /home/sfeeling/CLionProjects/Oodle/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_25f2e
+/opt/clion-2018.1.1/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_25f2e.dir/link.txt --verbose=1
+/usr/bin/clang++       CMakeFiles/cmTC_25f2e.dir/feature_tests.cxx.o  -o cmTC_25f2e 
 make[1]: Leaving directory '/home/sfeeling/CLionProjects/Oodle/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
@@ -567,14 +567,14 @@ make[1]: Leaving directory '/home/sfeeling/CLionProjects/Oodle/cmake-build-debug
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
 Change Dir: /home/sfeeling/CLionProjects/Oodle/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_a020d/fast"
-/usr/bin/make -f CMakeFiles/cmTC_a020d.dir/build.make CMakeFiles/cmTC_a020d.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_eb990/fast"
+/usr/bin/make -f CMakeFiles/cmTC_eb990.dir/build.make CMakeFiles/cmTC_eb990.dir/build
 make[1]: Entering directory '/home/sfeeling/CLionProjects/Oodle/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_a020d.dir/feature_tests.cxx.o
-/usr/bin/clang++    -std=c++98 -o CMakeFiles/cmTC_a020d.dir/feature_tests.cxx.o -c /home/sfeeling/CLionProjects/Oodle/cmake-build-debug/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_a020d
-/opt/clion-2018.1.1/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a020d.dir/link.txt --verbose=1
-/usr/bin/clang++       CMakeFiles/cmTC_a020d.dir/feature_tests.cxx.o  -o cmTC_a020d 
+Building CXX object CMakeFiles/cmTC_eb990.dir/feature_tests.cxx.o
+/usr/bin/clang++    -std=c++98 -o CMakeFiles/cmTC_eb990.dir/feature_tests.cxx.o -c /home/sfeeling/CLionProjects/Oodle/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_eb990
+/opt/clion-2018.1.1/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eb990.dir/link.txt --verbose=1
+/usr/bin/clang++       CMakeFiles/cmTC_eb990.dir/feature_tests.cxx.o  -o cmTC_eb990 
 make[1]: Leaving directory '/home/sfeeling/CLionProjects/Oodle/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 

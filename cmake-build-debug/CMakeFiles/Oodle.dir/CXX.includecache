@@ -9,12 +9,28 @@
 /home/sfeeling/CLionProjects/Oodle/src/DirInfo.cpp
 DirInfo.h
 /home/sfeeling/CLionProjects/Oodle/src/DirInfo.h
+FileInfo.h
+/home/sfeeling/CLionProjects/Oodle/src/FileInfo.h
+dirent.h
+-
+cstring
+-
+string
+-
+iostream
+-
+sstream
+-
 
 /home/sfeeling/CLionProjects/Oodle/src/DirInfo.h
 FileInfo.h
 /home/sfeeling/CLionProjects/Oodle/src/FileInfo.h
 SortStrategy.h
 /home/sfeeling/CLionProjects/Oodle/src/SortStrategy.h
+sys/stat.h
+-
+vector
+-
 
 /home/sfeeling/CLionProjects/Oodle/src/FileInfo.cpp
 FileInfo.h
@@ -31,9 +47,15 @@ string
 /home/sfeeling/CLionProjects/Oodle/src/Main.cpp
 unistd.h
 -
+cstring
+-
 iostream
 -
 string
+-
+memory
+-
+unordered_map
 -
 FileInfo.h
 /home/sfeeling/CLionProjects/Oodle/src/FileInfo.h
@@ -53,22 +75,48 @@ PicklerMode.h
 /home/sfeeling/CLionProjects/Oodle/src/PicklerMode.h
 
 /home/sfeeling/CLionProjects/Oodle/src/Pickler.h
+string
+-
+vector
+-
 
 /home/sfeeling/CLionProjects/Oodle/src/PicklerMode.cpp
 PicklerMode.h
 /home/sfeeling/CLionProjects/Oodle/src/PicklerMode.h
+dirent.h
+-
+cstring
+-
+algorithm
+-
 iostream
+-
+fstream
 -
 Pickler.h
 /home/sfeeling/CLionProjects/Oodle/src/Pickler.h
 
 /home/sfeeling/CLionProjects/Oodle/src/PicklerMode.h
+string
+-
 
 /home/sfeeling/CLionProjects/Oodle/src/SortStrategy.cpp
 SortStrategy.h
 /home/sfeeling/CLionProjects/Oodle/src/SortStrategy.h
+DirInfo.h
+/home/sfeeling/CLionProjects/Oodle/src/DirInfo.h
+algorithm
+-
 iostream
+-
+vector
+-
+string
 -
 
 /home/sfeeling/CLionProjects/Oodle/src/SortStrategy.h
+FileInfo.h
+/home/sfeeling/CLionProjects/Oodle/src/FileInfo.h
+vector
+-
 

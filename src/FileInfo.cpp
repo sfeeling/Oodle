@@ -20,22 +20,31 @@ FileInfo::~FileInfo()
 
 }
 
-string FileInfo::Name()
+const string &FileInfo::Name() const
 {
-    return nullptr;
+    return name_;
 }
 
-int FileInfo::Size()
+const int &FileInfo::Size() const
 {
-    return 0;
+    return size_;
 }
 
-int FileInfo::LastModified()
+const time_t &FileInfo::LastModified() const
 {
-    return 0;
+    return modified_time_;
 }
 
 bool FileInfo::IsDirectory()
 {
-    return false;
+    return is_dir_;
+}
+
+FileInfo::FileInfo(const std::string &name, const int &size, const time_t &modified_time, const bool &is_dir)
+    : name_(name),
+      size_(size),
+      modified_time_(modified_time),
+      is_dir_(is_dir)
+{
+
 }

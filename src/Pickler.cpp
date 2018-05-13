@@ -11,8 +11,8 @@ Pickler::Pickler()
 
 }
 
-Pickler::Pickler(PicklerMode *mode)
-    : mode_(mode)
+Pickler::Pickler(const std::string &dir_name)
+    : dir_name_(dir_name)
 {
 }
 
@@ -21,11 +21,9 @@ Pickler::~Pickler()
 
 }
 
-bool Pickler::SetMode(PicklerMode *mode)
+void Pickler::SetMode(PicklerMode *mode)
 {
-    // 由PicklerMode中的SetMode调用
     mode_ = mode;
-    return true;
 }
 
 void Pickler::Log()
@@ -35,7 +33,7 @@ void Pickler::Log()
 
 void Pickler::Traversal()
 {
-    mode_->Traversal(this);
+    mode_->Traversal(this, dir_name_);
 }
 
 void Pickler::Compare()
@@ -47,3 +45,4 @@ void Pickler::Diff()
 {
     mode_->Diff(this);
 }
+
