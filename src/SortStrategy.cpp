@@ -28,7 +28,7 @@ void SizeSort::sort(vector<FileInfo> &file_vec)
     { return file1.Size() < file2.Size(); });
 }
 
-void LastModifiedSort::sort(vector<FileInfo> &file_vec)
+void TimeSort::sort(vector<FileInfo> &file_vec)
 {
     std::sort(file_vec.begin(), file_vec.end(), [this](const FileInfo &file1, const FileInfo &file2)
     { return file1.LastModified() < file2.LastModified(); });

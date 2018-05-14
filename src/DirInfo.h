@@ -11,6 +11,7 @@
 #include <sys/stat.h>
 
 #include <vector>
+#include <memory>
 
 
 class DirInfo : public FileInfo
@@ -24,7 +25,7 @@ public:
     // GetDirInfo()
     // GetFileInfo()
     void SetFilter(const std::string &);
-    void Sort(SortStrategy *);
+    void Sort(std::unique_ptr<SortStrategy>);
 
 private:
     // SortStrategy *sort_strategy_;

@@ -21,9 +21,9 @@ Pickler::~Pickler()
 
 }
 
-void Pickler::SetMode(PicklerMode *mode)
+void Pickler::SetMode(std::unique_ptr<PicklerMode> mode)
 {
-    mode_ = mode;
+    mode_ = std::move(mode);
 }
 
 void Pickler::Log()

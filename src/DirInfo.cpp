@@ -41,7 +41,7 @@ void DirInfo::SetFilter(const std::string &criteria)
     }
 }
 
-void DirInfo::Sort(SortStrategy *sort_strategy)
+void DirInfo::Sort(unique_ptr<SortStrategy> sort_strategy)
 {
     sort_strategy->sort(file_vec_);
 }

@@ -7,6 +7,7 @@
 
 #include <string>
 #include <vector>
+#include <memory>
 
 class PicklerMode;
 
@@ -22,13 +23,13 @@ public:
     void Compare();  // 获取日志进行比较
     void Diff();  // 显示差异
 
-    void SetMode(PicklerMode *);
+    void SetMode(std::unique_ptr<PicklerMode>);
 
 private:
     friend class LogMode;
     friend class DiffMode;
 
-    PicklerMode *mode_;
+    std::unique_ptr<PicklerMode> mode_;
     std::string dir_name_;
     std::vector<std::string> file_vec_;
     std::vector<std::string> log_vec_;

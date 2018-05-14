@@ -16,48 +16,53 @@ using namespace std;
 
 int main(int argc, char *argv[])
 {
-    char *cpath = nullptr;
-    cpath = getcwd(nullptr, 0);  // 获取当前路径
 
-    // 初始化自定义的目录类
-    //DirInfo *dir_info = new DirInfo(cpath);
+    string cpath(getcwd(nullptr, 0)); // 获取当前路径
 
-    unique_ptr<DirInfo> dir_info(new DirInfo(cpath));
-    SortStrategy *sort_strategy = nullptr;
+    // 初始化自定义的目录类，改用智能指针
+    unique_ptr<DirInfo> dir_info = make_unique<DirInfo>(cpath);
 
+    //SortStrategy *sort_strategy = nullptr;
+    unique_ptr<SortStrategy> sort_strategy;
 
     // 测试模式
-    PicklerMode *mode = nullptr;
-    Pickler *pickler = new Pickler(cpath);
-
-
+    //PicklerMode *mode = nullptr;
+    unique_ptr<PicklerMode> mode;
+    unique_ptr<Pickler> pickler = make_unique<Pickler>(cpath);
 
     for (int i = 1; i < argc; i++)
     {
         string str_arg(argv[i]);
         if (str_arg == "log")
         {
-            mode = new LogMode();
+            mode = make_unique<LogMode>();
         }
         else if (str_arg == "diff")
         {
-            mode = new DiffMode();
+            mode = make_unique<DiffMode>();
         }
         else
         {
             if (str_arg == "-alpha")
-                sort_strategy = new AlphaSort();
+            {
+                sort_strategy = make_unique<AlphaSort>();
+            }
+
             if (str_arg == "-size")
-                sort_strategy = new SizeSort();
+            {
+                sort_strategy = make_unique<SizeSort>();
+            }
             if (str_arg == "-time")
-                sort_strategy = new LastModifiedSort();
+            {
+                sort_strategy = make_unique<TimeSort>();
+            }
             dir_info->SetFilter(str_arg);
         }
     }
 
     if (mode)
     {
-        pickler->SetMode(mode);
+        pickler->SetMode(move(mode));
         pickler->Traversal();
         pickler->Log();
         pickler->Compare();
@@ -66,13 +71,9 @@ int main(int argc, char *argv[])
     else
     {
         if (sort_strategy)
-            dir_info->Sort(sort_strategy);
+            dir_info->Sort(move(sort_strategy));
         dir_info->ShowContents();
     }
 
-    free(cpath);  // getcwd是c函数，使用alloc，用delete path无法正确回收内存
-    delete mode;
-    delete pickler;
-    delete sort_strategy;
     return 0;
 }

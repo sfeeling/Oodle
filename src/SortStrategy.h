@@ -34,7 +34,7 @@ public:
     void sort(vector<FileInfo> &) override;
 };
 
-class LastModifiedSort : public SortStrategy
+class TimeSort : public SortStrategy
 {
 public:
     void sort(vector<FileInfo> &) override;

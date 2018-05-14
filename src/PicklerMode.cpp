@@ -69,12 +69,12 @@ void LogMode::Traversal(Pickler *pickler, const std::string &dir_name)
     closedir(dp);
 }
 
-void LogMode::Compare(Pickler *)
+void LogMode::Compare(Pickler *pickler)
 {
     // empty
 }
 
-void LogMode::Diff(Pickler *)
+void LogMode::Diff(Pickler *pickler)
 {
     // empty
 }
