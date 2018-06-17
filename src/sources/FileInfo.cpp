@@ -2,11 +2,11 @@
 // Created by sfeeling on 18-4-20.
 //
 
-#include "FileInfo.h"
+#include "../headers/FileInfo.h"
 
 #include <string>
 
-#include "SortStrategy.h"
+#include "../headers/SortStrategy.h"
 
 using namespace std;
 

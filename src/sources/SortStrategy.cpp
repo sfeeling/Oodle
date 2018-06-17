@@ -2,8 +2,8 @@
 // Created by sfeeling on 18-4-24.
 //
 
-#include "SortStrategy.h"
-#include "DirInfo.h"
+#include "../headers/SortStrategy.h"
+#include "../headers/DirInfo.h"
 
 #include <algorithm>
 #include <iostream>

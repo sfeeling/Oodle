@@ -2,7 +2,7 @@
 // Created by sfeeling on 18-6-16.
 //
 
-#include "SortFactory.h"
+#include "../headers/SortFactory.h"
 
 shared_ptr<SortFactory> SortFactory::instance_ = nullptr;
 

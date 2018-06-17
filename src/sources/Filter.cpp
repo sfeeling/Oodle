@@ -2,8 +2,8 @@
 // Created by sfeeling on 18-6-16.
 //
 
-#include "Filter.h"
-#include "DirInfo.h"
+#include "../headers/Filter.h"
+#include "../headers/DirInfo.h"
 
 #include <vector>
 #include <iostream>
@@ -89,7 +89,9 @@ long long int SizeFilter::ConvertSize(const string &str_size)
 {
     char unit = str_size[str_size.size() - 1];
     long long int val = stoll(str_size.substr(0, str_size.size() - 1));
-    if (unit == 'K')
+    if (unit == 'B')
+        return val;
+    else if (unit == 'K')
         return val * 1024;
     else if (unit == 'M')
         return val * 1024 * 1024;
@@ -127,7 +129,7 @@ void SizeFilter::SetFilter()
         string str;
         for (auto c : min_str)
         {
-            if (c == 'K' || c == 'M' || c == 'G')
+            if (c == 'B' || c == 'K' || c == 'M' || c == 'G')
             {
                 str += c;
                 min_size += ConvertSize(str);
@@ -140,7 +142,7 @@ void SizeFilter::SetFilter()
         }
         for (auto c : max_str)
         {
-            if (c == 'K' || c == 'M' || c == 'G')
+            if (c == 'B' || c == 'K' || c == 'M' || c == 'G')
             {
                 str += c;
                 max_size += ConvertSize(str);

@@ -84,55 +84,52 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/sfeeling/CLionProjects/Oodle/src/DirComponent.cpp">
+		<Unit filename="/home/sfeeling/CLionProjects/Oodle/src/headers/DirComponent.h">
 			<Option target="Oodle"/>
 		</Unit>
-		<Unit filename="/home/sfeeling/CLionProjects/Oodle/src/DirComponent.h">
+		<Unit filename="/home/sfeeling/CLionProjects/Oodle/src/headers/DirInfo.h">
 			<Option target="Oodle"/>
 		</Unit>
-		<Unit filename="/home/sfeeling/CLionProjects/Oodle/src/DirInfo.cpp">
+		<Unit filename="/home/sfeeling/CLionProjects/Oodle/src/headers/FileInfo.h">
 			<Option target="Oodle"/>
 		</Unit>
-		<Unit filename="/home/sfeeling/CLionProjects/Oodle/src/DirInfo.h">
+		<Unit filename="/home/sfeeling/CLionProjects/Oodle/src/headers/Filter.h">
 			<Option target="Oodle"/>
 		</Unit>
-		<Unit filename="/home/sfeeling/CLionProjects/Oodle/src/FileInfo.cpp">
+		<Unit filename="/home/sfeeling/CLionProjects/Oodle/src/headers/Pickler.h">
 			<Option target="Oodle"/>
 		</Unit>
-		<Unit filename="/home/sfeeling/CLionProjects/Oodle/src/FileInfo.h">
+		<Unit filename="/home/sfeeling/CLionProjects/Oodle/src/headers/PicklerMode.h">
 			<Option target="Oodle"/>
 		</Unit>
-		<Unit filename="/home/sfeeling/CLionProjects/Oodle/src/Filter.cpp">
+		<Unit filename="/home/sfeeling/CLionProjects/Oodle/src/headers/SortFactory.h">
 			<Option target="Oodle"/>
 		</Unit>
-		<Unit filename="/home/sfeeling/CLionProjects/Oodle/src/Filter.h">
+		<Unit filename="/home/sfeeling/CLionProjects/Oodle/src/headers/SortStrategy.h">
 			<Option target="Oodle"/>
 		</Unit>
-		<Unit filename="/home/sfeeling/CLionProjects/Oodle/src/Main.cpp">
+		<Unit filename="/home/sfeeling/CLionProjects/Oodle/src/sources/DirInfo.cpp">
 			<Option target="Oodle"/>
 		</Unit>
-		<Unit filename="/home/sfeeling/CLionProjects/Oodle/src/Pickler.cpp">
+		<Unit filename="/home/sfeeling/CLionProjects/Oodle/src/sources/FileInfo.cpp">
 			<Option target="Oodle"/>
 		</Unit>
-		<Unit filename="/home/sfeeling/CLionProjects/Oodle/src/Pickler.h">
+		<Unit filename="/home/sfeeling/CLionProjects/Oodle/src/sources/Filter.cpp">
 			<Option target="Oodle"/>
 		</Unit>
-		<Unit filename="/home/sfeeling/CLionProjects/Oodle/src/PicklerMode.cpp">
+		<Unit filename="/home/sfeeling/CLionProjects/Oodle/src/sources/Main.cpp">
 			<Option target="Oodle"/>
 		</Unit>
-		<Unit filename="/home/sfeeling/CLionProjects/Oodle/src/PicklerMode.h">
+		<Unit filename="/home/sfeeling/CLionProjects/Oodle/src/sources/Pickler.cpp">
 			<Option target="Oodle"/>
 		</Unit>
-		<Unit filename="/home/sfeeling/CLionProjects/Oodle/src/SortFactory.cpp">
+		<Unit filename="/home/sfeeling/CLionProjects/Oodle/src/sources/PicklerMode.cpp">
 			<Option target="Oodle"/>
 		</Unit>
-		<Unit filename="/home/sfeeling/CLionProjects/Oodle/src/SortFactory.h">
+		<Unit filename="/home/sfeeling/CLionProjects/Oodle/src/sources/SortFactory.cpp">
 			<Option target="Oodle"/>
 		</Unit>
-		<Unit filename="/home/sfeeling/CLionProjects/Oodle/src/SortStrategy.cpp">
-			<Option target="Oodle"/>
-		</Unit>
-		<Unit filename="/home/sfeeling/CLionProjects/Oodle/src/SortStrategy.h">
+		<Unit filename="/home/sfeeling/CLionProjects/Oodle/src/sources/SortStrategy.cpp">
 			<Option target="Oodle"/>
 		</Unit>
 		<Unit filename="/home/sfeeling/CLionProjects/Oodle/CMakeLists.txt">

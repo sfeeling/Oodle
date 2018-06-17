@@ -7,12 +7,12 @@
 #include <memory>
 #include <unordered_map>
 
-#include "FileInfo.h"
-#include "DirInfo.h"
-#include "SortFactory.h"
-#include "Pickler.h"
-#include "PicklerMode.h"
-#include "Filter.h"
+#include "../headers/FileInfo.h"
+#include "../headers/DirInfo.h"
+#include "../headers/SortFactory.h"
+#include "../headers/Pickler.h"
+#include "../headers/PicklerMode.h"
+#include "../headers/Filter.h"
 
 using namespace std;
 
@@ -23,7 +23,7 @@ int main(int argc, char *argv[])
     string cpath(path);
     free(path);
 
-    
+
     DirComponent *dir_info = new DirInfo(cpath);
     vector<FileInfo> &file_vec(dynamic_cast<DirInfo*>(dir_info)->GetFileVec());
 

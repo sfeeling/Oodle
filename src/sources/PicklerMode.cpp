@@ -2,7 +2,7 @@
 // Created by sfeeling on 18-4-21.
 //
 
-#include "PicklerMode.h"
+#include "../headers/PicklerMode.h"
 
 #include <dirent.h>
 #include <cstring>
@@ -11,7 +11,7 @@
 #include <iostream>
 #include <fstream>
 
-#include "Pickler.h"
+#include "../headers/Pickler.h"
 
 using namespace std;
 
@@ -138,16 +138,14 @@ void DiffMode::Diff(Pickler *pickler)
 {
     if (pickler->added_vec_.size() > 0)
     {
-        cout << "增加的文件：" << endl;
         for (auto item : pickler->added_vec_)
-            cout << item << " ";
+            cout << "\033[32m" << item << "\033[0m ";
         cout << endl;
     }
     if (pickler->removed_vec_.size() > 0)
     {
-        cout << "删除的文件：" << endl;
         for (auto item : pickler->removed_vec_)
-            cout << item << " ";
+            cout << "\033[31m" << item << "\033[0m ";
         cout << endl;
     }
 }

@@ -2,8 +2,8 @@
 // Created by sfeeling on 18-4-20.
 //
 
-#include "DirInfo.h"
-#include "FileInfo.h"
+#include "../headers/DirInfo.h"
+#include "../headers/FileInfo.h"
 
 #include <dirent.h>
 #include <cstring>
@@ -65,11 +65,27 @@ DirInfo::DirInfo(const std::string &dir_name)
 
 void DirInfo::ShowContents()
 {
+    bool file_exists = false, dir_exists = false;
     for (auto &file : file_vec_)
     {
-        cout << file.Name() << " ";
+        if (file.IsDirectory())
+        {
+            dir_exists = true;
+            cout << "\033[1;34m" << file.Name() << "\033[0m ";
+        }
     }
-    cout << endl;
+    if (dir_exists)
+        cout << endl;
+    for (auto &file : file_vec_)
+    {
+        if (!file.IsDirectory())
+        {
+            file_exists = true;
+            cout << file.Name() << " ";
+        }
+    }
+    if (file_exists)
+        cout << endl;
 }
 
 void DirInfo::SetFilter()

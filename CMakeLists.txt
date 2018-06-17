@@ -3,4 +3,4 @@ project(Oodle)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Oodle src/Main.cpp src/FileInfo.cpp src/FileInfo.h src/DirInfo.cpp src/DirInfo.h src/Pickler.cpp src/Pickler.h src/PicklerMode.cpp src/PicklerMode.h src/SortStrategy.cpp src/SortStrategy.h src/SortFactory.cpp src/SortFactory.h src/DirComponent.cpp src/DirComponent.h src/Filter.cpp src/Filter.h)
+add_executable(Oodle src/sources/Main.cpp src/sources/FileInfo.cpp src/headers/FileInfo.h src/sources/DirInfo.cpp src/headers/DirInfo.h src/sources/Pickler.cpp src/headers/Pickler.h src/sources/PicklerMode.cpp src/headers/PicklerMode.h src/sources/SortStrategy.cpp src/headers/SortStrategy.h src/sources/SortFactory.cpp src/headers/SortFactory.h src/headers/DirComponent.h src/sources/Filter.cpp src/headers/Filter.h)
