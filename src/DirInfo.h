@@ -7,6 +7,7 @@
 
 #include "FileInfo.h"
 #include "SortStrategy.h"
+#include "DirComponent.h"
 
 #include <sys/stat.h>
 
@@ -14,18 +15,19 @@
 #include <memory>
 
 
-class DirInfo : public FileInfo
+class DirInfo : public FileInfo, public DirComponent
 {
 public:
     DirInfo();
     explicit DirInfo(const std::string &);
     ~DirInfo();
 
-    void ShowContents();
-    // GetDirInfo()
-    // GetFileInfo()
-    void SetFilter(const std::string &);
+    long long int GetDirectorySize(char *dir);
+
+    void ShowContents() override;
     void Sort(std::unique_ptr<SortStrategy>);
+    void SetFilter() override;
+    std::vector<FileInfo> &GetFileVec();
 
 private:
     // SortStrategy *sort_strategy_;

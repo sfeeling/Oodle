@@ -84,6 +84,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/sfeeling/CLionProjects/Oodle/src/DirComponent.cpp">
+			<Option target="Oodle"/>
+		</Unit>
+		<Unit filename="/home/sfeeling/CLionProjects/Oodle/src/DirComponent.h">
+			<Option target="Oodle"/>
+		</Unit>
 		<Unit filename="/home/sfeeling/CLionProjects/Oodle/src/DirInfo.cpp">
 			<Option target="Oodle"/>
 		</Unit>
@@ -94,6 +100,12 @@
 			<Option target="Oodle"/>
 		</Unit>
 		<Unit filename="/home/sfeeling/CLionProjects/Oodle/src/FileInfo.h">
+			<Option target="Oodle"/>
+		</Unit>
+		<Unit filename="/home/sfeeling/CLionProjects/Oodle/src/Filter.cpp">
+			<Option target="Oodle"/>
+		</Unit>
+		<Unit filename="/home/sfeeling/CLionProjects/Oodle/src/Filter.h">
 			<Option target="Oodle"/>
 		</Unit>
 		<Unit filename="/home/sfeeling/CLionProjects/Oodle/src/Main.cpp">
@@ -109,6 +121,12 @@
 			<Option target="Oodle"/>
 		</Unit>
 		<Unit filename="/home/sfeeling/CLionProjects/Oodle/src/PicklerMode.h">
+			<Option target="Oodle"/>
+		</Unit>
+		<Unit filename="/home/sfeeling/CLionProjects/Oodle/src/SortFactory.cpp">
+			<Option target="Oodle"/>
+		</Unit>
+		<Unit filename="/home/sfeeling/CLionProjects/Oodle/src/SortFactory.h">
 			<Option target="Oodle"/>
 		</Unit>
 		<Unit filename="/home/sfeeling/CLionProjects/Oodle/src/SortStrategy.cpp">

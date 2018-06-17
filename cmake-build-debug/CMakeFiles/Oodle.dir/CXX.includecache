@@ -6,6 +6,16 @@
 
 #IncludeRegexTransform: 
 
+/home/sfeeling/CLionProjects/Oodle/src/DirComponent.cpp
+DirComponent.h
+/home/sfeeling/CLionProjects/Oodle/src/DirComponent.h
+
+/home/sfeeling/CLionProjects/Oodle/src/DirComponent.h
+SortStrategy.h
+/home/sfeeling/CLionProjects/Oodle/src/SortStrategy.h
+memory
+-
+
 /home/sfeeling/CLionProjects/Oodle/src/DirInfo.cpp
 DirInfo.h
 /home/sfeeling/CLionProjects/Oodle/src/DirInfo.h
@@ -27,9 +37,13 @@ FileInfo.h
 /home/sfeeling/CLionProjects/Oodle/src/FileInfo.h
 SortStrategy.h
 /home/sfeeling/CLionProjects/Oodle/src/SortStrategy.h
+DirComponent.h
+/home/sfeeling/CLionProjects/Oodle/src/DirComponent.h
 sys/stat.h
 -
 vector
+-
+memory
 -
 
 /home/sfeeling/CLionProjects/Oodle/src/FileInfo.cpp
@@ -44,10 +58,30 @@ SortStrategy.h
 string
 -
 
+/home/sfeeling/CLionProjects/Oodle/src/Filter.cpp
+Filter.h
+/home/sfeeling/CLionProjects/Oodle/src/Filter.h
+DirInfo.h
+/home/sfeeling/CLionProjects/Oodle/src/DirInfo.h
+vector
+-
+iostream
+-
+
+/home/sfeeling/CLionProjects/Oodle/src/Filter.h
+DirComponent.h
+/home/sfeeling/CLionProjects/Oodle/src/DirComponent.h
+DirInfo.h
+/home/sfeeling/CLionProjects/Oodle/src/DirInfo.h
+string
+-
+
 /home/sfeeling/CLionProjects/Oodle/src/Main.cpp
 unistd.h
 -
 cstring
+-
+ctime
 -
 iostream
 -
@@ -61,12 +95,14 @@ FileInfo.h
 /home/sfeeling/CLionProjects/Oodle/src/FileInfo.h
 DirInfo.h
 /home/sfeeling/CLionProjects/Oodle/src/DirInfo.h
-SortStrategy.h
-/home/sfeeling/CLionProjects/Oodle/src/SortStrategy.h
+SortFactory.h
+/home/sfeeling/CLionProjects/Oodle/src/SortFactory.h
 Pickler.h
 /home/sfeeling/CLionProjects/Oodle/src/Pickler.h
 PicklerMode.h
 /home/sfeeling/CLionProjects/Oodle/src/PicklerMode.h
+Filter.h
+/home/sfeeling/CLionProjects/Oodle/src/Filter.h
 
 /home/sfeeling/CLionProjects/Oodle/src/Pickler.cpp
 Pickler.h
@@ -78,6 +114,8 @@ PicklerMode.h
 string
 -
 vector
+-
+memory
 -
 
 /home/sfeeling/CLionProjects/Oodle/src/PicklerMode.cpp
@@ -99,6 +137,18 @@ Pickler.h
 /home/sfeeling/CLionProjects/Oodle/src/PicklerMode.h
 string
 -
+
+/home/sfeeling/CLionProjects/Oodle/src/SortFactory.cpp
+SortFactory.h
+/home/sfeeling/CLionProjects/Oodle/src/SortFactory.h
+
+/home/sfeeling/CLionProjects/Oodle/src/SortFactory.h
+string
+-
+memory
+-
+SortStrategy.h
+/home/sfeeling/CLionProjects/Oodle/src/SortStrategy.h
 
 /home/sfeeling/CLionProjects/Oodle/src/SortStrategy.cpp
 SortStrategy.h

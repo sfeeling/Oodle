@@ -24,22 +24,6 @@ DirInfo::~DirInfo()
 
 }
 
-void DirInfo::SetFilter(const std::string &criteria)
-{
-    vector<FileInfo> temp_vec;
-    if (criteria == "-f" || criteria == "-d")
-    {
-        bool is_dir = (criteria == "-d");
-        for (auto &item : file_vec_)
-            if (item.IsDirectory() == is_dir)
-                temp_vec.push_back(item);
-        if (temp_vec.size() != file_vec_.size())
-        {
-            file_vec_.erase(file_vec_.begin(), file_vec_.end());
-            file_vec_ = temp_vec;
-        }
-    }
-}
 
 void DirInfo::Sort(unique_ptr<SortStrategy> sort_strategy)
 {
@@ -62,9 +46,17 @@ DirInfo::DirInfo(const std::string &dir_name)
         {
             struct stat buf;
             stat(dirp->d_name, &buf);
-            bool is_dir = dirp->d_type == 4;  // 4表示目录
-            FileInfo file_info(dirp->d_name, buf.st_size, buf.st_mtime, is_dir);
-            file_vec_.push_back(file_info);
+            bool is_dir = dirp->d_type == 4;
+            if (is_dir)
+            {
+                FileInfo file_info(dirp->d_name, GetDirectorySize(dirp->d_name), buf.st_mtime, is_dir);
+                file_vec_.push_back(file_info);
+            }
+            else
+            {
+                FileInfo file_info(dirp->d_name, buf.st_size, buf.st_mtime, is_dir);
+                file_vec_.push_back(file_info);
+            }
         }
     }
 
@@ -78,5 +70,58 @@ void DirInfo::ShowContents()
         cout << file.Name() << " ";
     }
     cout << endl;
+}
+
+void DirInfo::SetFilter()
+{
+}
+
+std::vector<FileInfo> &DirInfo::GetFileVec()
+{
+    return file_vec_;
+}
+
+long long int DirInfo::GetDirectorySize(char *dir)
+{
+    DIR *dp;
+    struct dirent *entry;
+    struct stat statbuf;
+    long long int totalSize=0;
+
+    if ((dp = opendir(dir)) == NULL)
+    {
+        fprintf(stderr, "Cannot open dir: %s\n", dir);
+        return -1; //可能是个文件，或者目录不存在
+    }
+
+    //先加上自身目录的大小
+    lstat(dir, &statbuf);
+    totalSize+=statbuf.st_size;
+
+    while ((entry = readdir(dp)) != NULL)
+    {
+        char subdir[256];
+        sprintf(subdir, "%s/%s", dir, entry->d_name);
+        lstat(subdir, &statbuf);
+
+        if (S_ISDIR(statbuf.st_mode))
+        {
+            if (strcmp(".", entry->d_name) == 0 ||
+                strcmp("..", entry->d_name) == 0)
+            {
+                continue;
+            }
+
+            long long int subDirSize = GetDirectorySize(subdir);
+            totalSize+=subDirSize;
+        }
+        else
+        {
+            totalSize+=statbuf.st_size;
+        }
+    }
+
+    closedir(dp);
+    return totalSize;
 }
 

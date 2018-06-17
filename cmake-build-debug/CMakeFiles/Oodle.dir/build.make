@@ -201,6 +201,78 @@ CMakeFiles/Oodle.dir/src/SortStrategy.cpp.o.provides: CMakeFiles/Oodle.dir/src/S
 CMakeFiles/Oodle.dir/src/SortStrategy.cpp.o.provides.build: CMakeFiles/Oodle.dir/src/SortStrategy.cpp.o
 
 
+CMakeFiles/Oodle.dir/src/SortFactory.cpp.o: CMakeFiles/Oodle.dir/flags.make
+CMakeFiles/Oodle.dir/src/SortFactory.cpp.o: ../src/SortFactory.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sfeeling/CLionProjects/Oodle/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Oodle.dir/src/SortFactory.cpp.o"
+	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Oodle.dir/src/SortFactory.cpp.o -c /home/sfeeling/CLionProjects/Oodle/src/SortFactory.cpp
+
+CMakeFiles/Oodle.dir/src/SortFactory.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Oodle.dir/src/SortFactory.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sfeeling/CLionProjects/Oodle/src/SortFactory.cpp > CMakeFiles/Oodle.dir/src/SortFactory.cpp.i
+
+CMakeFiles/Oodle.dir/src/SortFactory.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Oodle.dir/src/SortFactory.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sfeeling/CLionProjects/Oodle/src/SortFactory.cpp -o CMakeFiles/Oodle.dir/src/SortFactory.cpp.s
+
+CMakeFiles/Oodle.dir/src/SortFactory.cpp.o.requires:
+
+.PHONY : CMakeFiles/Oodle.dir/src/SortFactory.cpp.o.requires
+
+CMakeFiles/Oodle.dir/src/SortFactory.cpp.o.provides: CMakeFiles/Oodle.dir/src/SortFactory.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Oodle.dir/build.make CMakeFiles/Oodle.dir/src/SortFactory.cpp.o.provides.build
+.PHONY : CMakeFiles/Oodle.dir/src/SortFactory.cpp.o.provides
+
+CMakeFiles/Oodle.dir/src/SortFactory.cpp.o.provides.build: CMakeFiles/Oodle.dir/src/SortFactory.cpp.o
+
+
+CMakeFiles/Oodle.dir/src/DirComponent.cpp.o: CMakeFiles/Oodle.dir/flags.make
+CMakeFiles/Oodle.dir/src/DirComponent.cpp.o: ../src/DirComponent.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sfeeling/CLionProjects/Oodle/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Oodle.dir/src/DirComponent.cpp.o"
+	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Oodle.dir/src/DirComponent.cpp.o -c /home/sfeeling/CLionProjects/Oodle/src/DirComponent.cpp
+
+CMakeFiles/Oodle.dir/src/DirComponent.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Oodle.dir/src/DirComponent.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sfeeling/CLionProjects/Oodle/src/DirComponent.cpp > CMakeFiles/Oodle.dir/src/DirComponent.cpp.i
+
+CMakeFiles/Oodle.dir/src/DirComponent.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Oodle.dir/src/DirComponent.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sfeeling/CLionProjects/Oodle/src/DirComponent.cpp -o CMakeFiles/Oodle.dir/src/DirComponent.cpp.s
+
+CMakeFiles/Oodle.dir/src/DirComponent.cpp.o.requires:
+
+.PHONY : CMakeFiles/Oodle.dir/src/DirComponent.cpp.o.requires
+
+CMakeFiles/Oodle.dir/src/DirComponent.cpp.o.provides: CMakeFiles/Oodle.dir/src/DirComponent.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Oodle.dir/build.make CMakeFiles/Oodle.dir/src/DirComponent.cpp.o.provides.build
+.PHONY : CMakeFiles/Oodle.dir/src/DirComponent.cpp.o.provides
+
+CMakeFiles/Oodle.dir/src/DirComponent.cpp.o.provides.build: CMakeFiles/Oodle.dir/src/DirComponent.cpp.o
+
+
+CMakeFiles/Oodle.dir/src/Filter.cpp.o: CMakeFiles/Oodle.dir/flags.make
+CMakeFiles/Oodle.dir/src/Filter.cpp.o: ../src/Filter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sfeeling/CLionProjects/Oodle/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Oodle.dir/src/Filter.cpp.o"
+	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Oodle.dir/src/Filter.cpp.o -c /home/sfeeling/CLionProjects/Oodle/src/Filter.cpp
+
+CMakeFiles/Oodle.dir/src/Filter.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Oodle.dir/src/Filter.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sfeeling/CLionProjects/Oodle/src/Filter.cpp > CMakeFiles/Oodle.dir/src/Filter.cpp.i
+
+CMakeFiles/Oodle.dir/src/Filter.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Oodle.dir/src/Filter.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sfeeling/CLionProjects/Oodle/src/Filter.cpp -o CMakeFiles/Oodle.dir/src/Filter.cpp.s
+
+CMakeFiles/Oodle.dir/src/Filter.cpp.o.requires:
+
+.PHONY : CMakeFiles/Oodle.dir/src/Filter.cpp.o.requires
+
+CMakeFiles/Oodle.dir/src/Filter.cpp.o.provides: CMakeFiles/Oodle.dir/src/Filter.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Oodle.dir/build.make CMakeFiles/Oodle.dir/src/Filter.cpp.o.provides.build
+.PHONY : CMakeFiles/Oodle.dir/src/Filter.cpp.o.provides
+
+CMakeFiles/Oodle.dir/src/Filter.cpp.o.provides.build: CMakeFiles/Oodle.dir/src/Filter.cpp.o
+
+
 # Object files for target Oodle
 Oodle_OBJECTS = \
 "CMakeFiles/Oodle.dir/src/Main.cpp.o" \
@@ -208,7 +280,10 @@ Oodle_OBJECTS = \
 "CMakeFiles/Oodle.dir/src/DirInfo.cpp.o" \
 "CMakeFiles/Oodle.dir/src/Pickler.cpp.o" \
 "CMakeFiles/Oodle.dir/src/PicklerMode.cpp.o" \
-"CMakeFiles/Oodle.dir/src/SortStrategy.cpp.o"
+"CMakeFiles/Oodle.dir/src/SortStrategy.cpp.o" \
+"CMakeFiles/Oodle.dir/src/SortFactory.cpp.o" \
+"CMakeFiles/Oodle.dir/src/DirComponent.cpp.o" \
+"CMakeFiles/Oodle.dir/src/Filter.cpp.o"
 
 # External object files for target Oodle
 Oodle_EXTERNAL_OBJECTS =
@@ -219,9 +294,12 @@ Oodle: CMakeFiles/Oodle.dir/src/DirInfo.cpp.o
 Oodle: CMakeFiles/Oodle.dir/src/Pickler.cpp.o
 Oodle: CMakeFiles/Oodle.dir/src/PicklerMode.cpp.o
 Oodle: CMakeFiles/Oodle.dir/src/SortStrategy.cpp.o
+Oodle: CMakeFiles/Oodle.dir/src/SortFactory.cpp.o
+Oodle: CMakeFiles/Oodle.dir/src/DirComponent.cpp.o
+Oodle: CMakeFiles/Oodle.dir/src/Filter.cpp.o
 Oodle: CMakeFiles/Oodle.dir/build.make
 Oodle: CMakeFiles/Oodle.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/sfeeling/CLionProjects/Oodle/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable Oodle"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/sfeeling/CLionProjects/Oodle/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable Oodle"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Oodle.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -235,6 +313,9 @@ CMakeFiles/Oodle.dir/requires: CMakeFiles/Oodle.dir/src/DirInfo.cpp.o.requires
 CMakeFiles/Oodle.dir/requires: CMakeFiles/Oodle.dir/src/Pickler.cpp.o.requires
 CMakeFiles/Oodle.dir/requires: CMakeFiles/Oodle.dir/src/PicklerMode.cpp.o.requires
 CMakeFiles/Oodle.dir/requires: CMakeFiles/Oodle.dir/src/SortStrategy.cpp.o.requires
+CMakeFiles/Oodle.dir/requires: CMakeFiles/Oodle.dir/src/SortFactory.cpp.o.requires
+CMakeFiles/Oodle.dir/requires: CMakeFiles/Oodle.dir/src/DirComponent.cpp.o.requires
+CMakeFiles/Oodle.dir/requires: CMakeFiles/Oodle.dir/src/Filter.cpp.o.requires
 
 .PHONY : CMakeFiles/Oodle.dir/requires
 

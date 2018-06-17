@@ -5,6 +5,9 @@ file(REMOVE_RECURSE
   "CMakeFiles/Oodle.dir/src/Pickler.cpp.o"
   "CMakeFiles/Oodle.dir/src/PicklerMode.cpp.o"
   "CMakeFiles/Oodle.dir/src/SortStrategy.cpp.o"
+  "CMakeFiles/Oodle.dir/src/SortFactory.cpp.o"
+  "CMakeFiles/Oodle.dir/src/DirComponent.cpp.o"
+  "CMakeFiles/Oodle.dir/src/Filter.cpp.o"
   "Oodle.pdb"
   "Oodle"
 )

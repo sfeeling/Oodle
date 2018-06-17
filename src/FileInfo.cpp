@@ -25,7 +25,7 @@ const string &FileInfo::Name() const
     return name_;
 }
 
-const int &FileInfo::Size() const
+const long long int &FileInfo::Size() const
 {
     return size_;
 }

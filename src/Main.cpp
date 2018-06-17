@@ -1,5 +1,6 @@
 #include <unistd.h>
 #include <cstring>
+#include <ctime>
 
 #include <iostream>
 #include <string>
@@ -8,25 +9,26 @@
 
 #include "FileInfo.h"
 #include "DirInfo.h"
-#include "SortStrategy.h"
+#include "SortFactory.h"
 #include "Pickler.h"
 #include "PicklerMode.h"
+#include "Filter.h"
 
 using namespace std;
 
 int main(int argc, char *argv[])
 {
 
-    string cpath(getcwd(nullptr, 0)); // 获取当前路径
+    char *path = getcwd(nullptr, 0);  // 获取当前路径
+    string cpath(path);
+    free(path);
 
-    // 初始化自定义的目录类，改用智能指针
-    unique_ptr<DirInfo> dir_info = make_unique<DirInfo>(cpath);
+    
+    DirComponent *dir_info = new DirInfo(cpath);
+    vector<FileInfo> &file_vec(dynamic_cast<DirInfo*>(dir_info)->GetFileVec());
 
-    //SortStrategy *sort_strategy = nullptr;
     unique_ptr<SortStrategy> sort_strategy;
 
-    // 测试模式
-    //PicklerMode *mode = nullptr;
     unique_ptr<PicklerMode> mode;
     unique_ptr<Pickler> pickler = make_unique<Pickler>(cpath);
 
@@ -34,31 +36,42 @@ int main(int argc, char *argv[])
     {
         string str_arg(argv[i]);
         if (str_arg == "log")
-        {
             mode = make_unique<LogMode>();
-        }
         else if (str_arg == "diff")
-        {
             mode = make_unique<DiffMode>();
-        }
         else
         {
-            if (str_arg == "-alpha")
-            {
-                sort_strategy = make_unique<AlphaSort>();
-            }
 
-            if (str_arg == "-size")
+            if (str_arg == "-alpha" || str_arg == "-size" || str_arg == "-time")
             {
-                sort_strategy = make_unique<SizeSort>();
+                // 工厂本身是单例模式
+                shared_ptr<SortFactory> sort_factory = SortFactory::GetInstance();
+                sort_strategy = sort_factory->CreateSortStrategy(str_arg);
             }
-            if (str_arg == "-time")
+            else if (str_arg == "-d" || str_arg == "-f")
             {
-                sort_strategy = make_unique<TimeSort>();
+                dir_info = new FileTypeFilter(dir_info, file_vec, str_arg);
             }
-            dir_info->SetFilter(str_arg);
+            else if (str_arg == "-n")
+            {
+                str_arg = string(argv[++i]);
+                dir_info = new FileNameFilter(dir_info, file_vec, str_arg);
+            }
+            else if (str_arg == "-s")
+            {
+                str_arg = string(argv[++i]);
+                dir_info = new SizeFilter(dir_info, file_vec, str_arg);
+            }
+            else if (str_arg == "-t")
+            {
+                str_arg = string(argv[++i]);
+                dir_info = new TimeFilter(dir_info, file_vec, str_arg);
+            }
         }
     }
+
+
+    dir_info->SetFilter();
 
     if (mode)
     {
@@ -75,5 +88,7 @@ int main(int argc, char *argv[])
         dir_info->ShowContents();
     }
 
+    // 由于使用了装饰模式，内存管理比较复杂，暂时没能解决内存泄漏的bug
+    delete dir_info;
     return 0;
 }

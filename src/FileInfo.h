@@ -16,13 +16,13 @@ public:
     ~FileInfo();
 
     const std::string &Name() const;
-    const int &Size() const;
+    const long long int &Size() const;
     const time_t &LastModified() const;
     bool IsDirectory();
 
 private:
     std::string name_;
-    int size_;
+    long long int size_;
     time_t modified_time_;
     bool is_dir_;
 };

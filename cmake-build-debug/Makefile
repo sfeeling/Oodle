@@ -123,6 +123,33 @@ Oodle/fast:
 	$(MAKE) -f CMakeFiles/Oodle.dir/build.make CMakeFiles/Oodle.dir/build
 .PHONY : Oodle/fast
 
+src/DirComponent.o: src/DirComponent.cpp.o
+
+.PHONY : src/DirComponent.o
+
+# target to build an object file
+src/DirComponent.cpp.o:
+	$(MAKE) -f CMakeFiles/Oodle.dir/build.make CMakeFiles/Oodle.dir/src/DirComponent.cpp.o
+.PHONY : src/DirComponent.cpp.o
+
+src/DirComponent.i: src/DirComponent.cpp.i
+
+.PHONY : src/DirComponent.i
+
+# target to preprocess a source file
+src/DirComponent.cpp.i:
+	$(MAKE) -f CMakeFiles/Oodle.dir/build.make CMakeFiles/Oodle.dir/src/DirComponent.cpp.i
+.PHONY : src/DirComponent.cpp.i
+
+src/DirComponent.s: src/DirComponent.cpp.s
+
+.PHONY : src/DirComponent.s
+
+# target to generate assembly for a file
+src/DirComponent.cpp.s:
+	$(MAKE) -f CMakeFiles/Oodle.dir/build.make CMakeFiles/Oodle.dir/src/DirComponent.cpp.s
+.PHONY : src/DirComponent.cpp.s
+
 src/DirInfo.o: src/DirInfo.cpp.o
 
 .PHONY : src/DirInfo.o
@@ -176,6 +203,33 @@ src/FileInfo.s: src/FileInfo.cpp.s
 src/FileInfo.cpp.s:
 	$(MAKE) -f CMakeFiles/Oodle.dir/build.make CMakeFiles/Oodle.dir/src/FileInfo.cpp.s
 .PHONY : src/FileInfo.cpp.s
+
+src/Filter.o: src/Filter.cpp.o
+
+.PHONY : src/Filter.o
+
+# target to build an object file
+src/Filter.cpp.o:
+	$(MAKE) -f CMakeFiles/Oodle.dir/build.make CMakeFiles/Oodle.dir/src/Filter.cpp.o
+.PHONY : src/Filter.cpp.o
+
+src/Filter.i: src/Filter.cpp.i
+
+.PHONY : src/Filter.i
+
+# target to preprocess a source file
+src/Filter.cpp.i:
+	$(MAKE) -f CMakeFiles/Oodle.dir/build.make CMakeFiles/Oodle.dir/src/Filter.cpp.i
+.PHONY : src/Filter.cpp.i
+
+src/Filter.s: src/Filter.cpp.s
+
+.PHONY : src/Filter.s
+
+# target to generate assembly for a file
+src/Filter.cpp.s:
+	$(MAKE) -f CMakeFiles/Oodle.dir/build.make CMakeFiles/Oodle.dir/src/Filter.cpp.s
+.PHONY : src/Filter.cpp.s
 
 src/Main.o: src/Main.cpp.o
 
@@ -258,6 +312,33 @@ src/PicklerMode.cpp.s:
 	$(MAKE) -f CMakeFiles/Oodle.dir/build.make CMakeFiles/Oodle.dir/src/PicklerMode.cpp.s
 .PHONY : src/PicklerMode.cpp.s
 
+src/SortFactory.o: src/SortFactory.cpp.o
+
+.PHONY : src/SortFactory.o
+
+# target to build an object file
+src/SortFactory.cpp.o:
+	$(MAKE) -f CMakeFiles/Oodle.dir/build.make CMakeFiles/Oodle.dir/src/SortFactory.cpp.o
+.PHONY : src/SortFactory.cpp.o
+
+src/SortFactory.i: src/SortFactory.cpp.i
+
+.PHONY : src/SortFactory.i
+
+# target to preprocess a source file
+src/SortFactory.cpp.i:
+	$(MAKE) -f CMakeFiles/Oodle.dir/build.make CMakeFiles/Oodle.dir/src/SortFactory.cpp.i
+.PHONY : src/SortFactory.cpp.i
+
+src/SortFactory.s: src/SortFactory.cpp.s
+
+.PHONY : src/SortFactory.s
+
+# target to generate assembly for a file
+src/SortFactory.cpp.s:
+	$(MAKE) -f CMakeFiles/Oodle.dir/build.make CMakeFiles/Oodle.dir/src/SortFactory.cpp.s
+.PHONY : src/SortFactory.cpp.s
+
 src/SortStrategy.o: src/SortStrategy.cpp.o
 
 .PHONY : src/SortStrategy.o
@@ -294,12 +375,18 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Oodle"
+	@echo "... src/DirComponent.o"
+	@echo "... src/DirComponent.i"
+	@echo "... src/DirComponent.s"
 	@echo "... src/DirInfo.o"
 	@echo "... src/DirInfo.i"
 	@echo "... src/DirInfo.s"
 	@echo "... src/FileInfo.o"
 	@echo "... src/FileInfo.i"
 	@echo "... src/FileInfo.s"
+	@echo "... src/Filter.o"
+	@echo "... src/Filter.i"
+	@echo "... src/Filter.s"
 	@echo "... src/Main.o"
 	@echo "... src/Main.i"
 	@echo "... src/Main.s"
@@ -309,6 +396,9 @@ help:
 	@echo "... src/PicklerMode.o"
 	@echo "... src/PicklerMode.i"
 	@echo "... src/PicklerMode.s"
+	@echo "... src/SortFactory.o"
+	@echo "... src/SortFactory.i"
+	@echo "... src/SortFactory.s"
 	@echo "... src/SortStrategy.o"
 	@echo "... src/SortStrategy.i"
 	@echo "... src/SortStrategy.s"
