@@ -11,46 +11,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="484bf7f5-b2be-4fde-989b-d8824c7a4fb6" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Oodle.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Oodle.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Oodle.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Oodle.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Oodle.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Oodle.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Oodle.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Oodle.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Oodle.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Oodle.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Oodle.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Oodle.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Oodle.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Oodle.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Oodle.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Oodle.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Oodle.dir/src/DirInfo.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Oodle.dir/src/FileInfo.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Oodle.dir/src/Main.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Oodle.dir/src/Pickler.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Oodle.dir/src/PicklerMode.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Oodle.dir/src/SortStrategy.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Oodle" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Oodle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Oodle.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Oodle.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DirComponent.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DirComponent.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DirInfo.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/sources/DirInfo.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DirInfo.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FileInfo.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/sources/FileInfo.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FileInfo.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Filter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/sources/Filter.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Filter.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/sources/Main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pickler.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/sources/Pickler.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pickler.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PicklerMode.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/sources/PicklerMode.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PicklerMode.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SortFactory.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/sources/SortFactory.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SortFactory.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SortStrategy.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/sources/SortStrategy.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SortStrategy.h" beforeDir="false" />
-    </list>
+    <list default="true" id="484bf7f5-b2be-4fde-989b-d8824c7a4fb6" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/CMakeFiles/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -63,11 +24,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.cpp" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Main.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/sources/Main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="956">
-              <caret line="72" selection-start-line="72" selection-end-line="72" />
+            <state relative-caret-position="326">
+              <caret line="37" column="29" lean-forward="true" selection-start-line="37" selection-start-column="29" selection-end-line="37" selection-end-column="29" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -117,7 +78,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Filter.cpp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Filter.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sources/Filter.cpp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
@@ -127,6 +88,11 @@
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".oodle" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.oodle">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file leaf-file-name="SortStrategy.cpp" pinned="false" current-in-tab="false">
@@ -284,7 +250,7 @@
       <workItem from="1526226541289" duration="4427000" />
       <workItem from="1526271687119" duration="7449000" />
       <workItem from="1529136829646" duration="25931000" />
-      <workItem from="1529202404655" duration="8070000" />
+      <workItem from="1529202404655" duration="8195000" />
     </task>
     <task id="LOCAL-00001" summary="finished simple functions">
       <created>1526227849959</created>
@@ -307,15 +273,21 @@
       <option name="project" value="LOCAL" />
       <updated>1529211558501</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="对显示结果进行了简单的美化">
+      <created>1529216693374</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1529216693374</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="100195000" />
+    <option name="totallyTimeSpent" value="100320000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="-11" width="1303" height="780" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22828594" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -324,7 +296,7 @@
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5019216" side_tool="true" weight="0.35532233" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3298351" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3298351" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4980784" visible="true" weight="0.35532233" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4980784" weight="0.35532233" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3298351" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -390,7 +362,8 @@
     <MESSAGE value="finished simple functions" />
     <MESSAGE value="partial convertion to smart pointer" />
     <MESSAGE value="添加了文件名，修改时间和文件大小的过滤器" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加了文件名，修改时间和文件大小的过滤器" />
+    <MESSAGE value="对显示结果进行了简单的美化" />
+    <option name="LAST_COMMIT_MESSAGE" value="对显示结果进行了简单的美化" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -407,13 +380,6 @@
     <select />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/sources/FileInfo.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/sources/Pickler.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
@@ -754,16 +720,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sources/Main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="956">
-          <caret line="72" selection-start-line="72" selection-end-line="72" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/sources/PicklerMode.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="578">
@@ -787,6 +743,19 @@
           <caret line="145" column="13" lean-forward="true" selection-start-line="145" selection-start-column="13" selection-end-line="145" selection-end-column="13" />
           <folding>
             <element signature="e#42#61#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.oodle">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sources/Main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="37" column="29" lean-forward="true" selection-start-line="37" selection-start-column="29" selection-end-line="37" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
           </folding>
         </state>
       </provider>
